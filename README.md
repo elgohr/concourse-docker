@@ -35,6 +35,9 @@ production you'll definitely want to change that - see [Configuring Auth
 Providers](https://concourse-ci.org/install.html#auth-config) for more
 information..
 
+Shortcut:
+`curl https://raw.githubusercontent.com/elgohr/concourse-docker/master/docker-compose.yml | docker-compose -f - up`
+
 ## Docker Run
 
 Alternatively, these two Docker Run commands can be used to get `concourse-quickstart` up and running with 2 containers.  These command provide not only `concourse`, but also a database instance for it to use. 
